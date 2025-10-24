@@ -1,0 +1,27 @@
+# ------- core -------
+flask==3.0.3
+flask-sqlalchemy==3.1.1
+flask-login==0.6.3
+python-dotenv==1.0.1
+
+# ------- base de datos -------
+# SQLite ya viene en la stdlib; para MySQL/Postgres (futuro) descomentar:
+# psycopg2-binary==2.9.9        # PostgreSQL
+# pymysql==1.1.0                # MySQL/MariaDB
+
+# ------- seguridad -------
+werkzeug==3.0.3        # (ya viene con Flask, lo dejo por si acaso)
+
+# ------- WhatsApp (gratis, vía whatsapp-web.js) -------
+flask-cors==4.0.1      # para que el micro-servicio JS nos hable
+requests==2.32.3       # llamadas al micro-servicio
+
+# ------- utilidades -------
+click==8.1.7           # CLI de Flask
+python-dateutil==2.9.0 # manejo de fechas
+qrcode==7.4.2          # generar QR de orden de servicio (opcional)
+#pillow==10.3.0         # soporte de imágenes (fotos de equipos)
+
+# ------- desarrollo -------
+pytest==8.2.1          # tests automáticos (más adelante)
+black==24.4.2          # formateo de código (opcional)
