@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+*.egg-info/
+
+# DB local
+*.db
+*.sqlite3
+db/backups/*.sql
+
+# Entorno
+.env
+.flaskenv
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
